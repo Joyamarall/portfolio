@@ -581,7 +581,22 @@ body {
     transition: color .3s ease ;
     color: var(--color-blue);
 }
+ /*botão de topo*/
 
+ .topo{
+    background: var(--color-white);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 
 
 @keyframes written-text {
